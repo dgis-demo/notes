@@ -1,8 +1,8 @@
 ## Get started
 ```bash
 python3 main.py
-./index.html
 ```
+Go to `http://localhost:8080`
 
 ## Possible SQL injections
 - `user1' or name='user2' or name='user3'--`

@@ -13,7 +13,8 @@ def fill_database():
     conn.executescript(
         '''
         BEGIN;
-        CREATE TABLE IF NOT EXISTS users (
+        DROP TABLE IF EXISTS users;
+        CREATE TABLE users (
             id INTEGER PRIMARY KEY,
             name TEXT,
             password TEXT
@@ -28,16 +29,18 @@ def fill_database():
     conn.close()
 
 
+@route('/', method='GET')
+def index():
+    with open('./index.html', 'r') as file:
+        html = file.read()
+    return template(html) 
+
+
 @route('/', method='POST')
 def main_page():
     name = request.forms.get('name')
 
     conn = get_db_connection()
-    # TODO: there are some possible SQL injections here like the following: 
-    # user1' or name='user2' or name='user3'--
-    # ' or 1=1;--
-    # ' union select password from users--
-    # ' union select name || ':' || password from users--
     rows = conn.execute(f"SELECT id FROM users WHERE name='{name}'").fetchall()
     conn.close()
 
