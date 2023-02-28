@@ -41,7 +41,8 @@ def main_page():
     name = request.forms.get('name')
 
     conn = get_db_connection()
-    rows = conn.execute(f"SELECT id FROM users WHERE name='{name}'").fetchall()
+    query = f"SELECT id FROM users WHERE name='{name}'"
+    rows = conn.execute(query).fetchall()
     conn.close()
 
     users = [
@@ -50,7 +51,7 @@ def main_page():
         }
         for row in rows
     ]
-    return str(users)
+    return template(f'<p>{users}</p><br><i>{query}</i>')
 
 if __name__ == '__main__':
     fill_database()
