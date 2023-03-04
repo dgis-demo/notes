@@ -1,0 +1,996 @@
+city,country,lat,lng,capital,population,rent
+Vienna,Austria,48.2083,16.3725,primary,1911191,
+Graz,Austria,47.0708,15.4386,admin,289440,611
+Linz,Austria,48.3,14.2833,admin,204846,680.44
+Salzburg,Austria,47.7972,13.0477,admin,155021,953.33
+Innsbruck,Austria,47.2683,11.3933,admin,132493,875
+Klagenfurt,Austria,46.6167,14.3,admin,101403,
+Brussels,Belgium,50.8353,4.3314,primary,1743000,950.48
+Antwerp,Belgium,51.2211,4.3997,minor,529247,838.24
+Gent,Belgium,51.0536,3.7253,minor,262219,836.67
+Charleroi,Belgium,50.4167,4.4442,minor,201816,
+Liège,Belgium,50.6397,5.5706,minor,196623,
+Bruges,Belgium,51.2089,3.2242,minor,118284,
+Anderlecht,Belgium,50.8392,4.3297,,117412,
+Namur,Belgium,50.4667,4.8667,admin,110939,
+Leuven,Belgium,50.8775,4.7044,minor,100291,814.11
+Sarajevo,Bosnia And Herzegovina,43.8563,18.4132,primary,275524,280.1
+Banja Luka,Bosnia And Herzegovina,44.7667,17.1833,admin,199191,270.25
+Mostar,Bosnia And Herzegovina,43.3494,17.8125,minor,163067,
+Bijeljina,Bosnia And Herzegovina,44.75,19.2167,minor,114663,
+Tuzla,Bosnia And Herzegovina,44.5381,18.6761,minor,110979,203.78
+Sofia,Bulgaria,42.6979,23.3217,primary,1277411,439.93
+Plovdiv,Bulgaria,42.1421,24.7415,admin,366511,277.43
+Varna,Bulgaria,43.2114,27.9111,admin,347924,317.33
+Burgas,Bulgaria,42.503,27.4702,admin,210720,325.13
+Ruse,Bulgaria,43.8445,25.9539,admin,143931,
+Stara Zagora,Bulgaria,42.4257,25.6346,admin,136475,
+Pleven,Bulgaria,43.4132,24.6169,admin,101299,
+Santiago,Chile,-33.45,-70.6667,primary,7026000,488.81
+Puente Alto,Chile,-33.6167,-70.5833,minor,573935,
+Maipú,Chile,-33.5167,-70.7667,,521627,
+La Florida,Chile,-33.55,-70.5667,,366916,
+Antofagasta,Chile,-23.6464,-70.398,admin,348517,
+Viña del Mar,Chile,-33.0245,-71.5518,,332875,
+San Bernardo,Chile,-33.6,-70.7167,minor,301313,
+Valparaíso,Chile,-33.0458,-71.6197,admin,296655,
+Temuco,Chile,-38.7399,-72.5901,admin,282415,
+Las Condes,Chile,-33.4167,-70.5833,,249893,
+Rancagua,Chile,-34.1654,-70.7398,admin,231370,
+Concepción,Chile,-36.8271,-73.0503,admin,217537,
+Talca,Chile,-35.4269,-71.6656,admin,206069,
+Coquimbo,Chile,-29.9532,-71.338,minor,204068,
+Arica,Chile,-18.4784,-70.3211,admin,202131,
+La Serena,Chile,-29.9027,-71.252,admin,195382,
+Iquique,Chile,-20.2141,-70.1524,admin,188003,
+Puerto Montt,Chile,-41.4718,-72.9396,admin,169736,
+Chillán,Chile,-36.6067,-72.1033,admin,164270,
+Calama,Chile,-22.4624,-68.9272,minor,157575,
+Copiapó,Chile,-27.3665,-70.3323,admin,150804,
+Valdivia,Chile,-39.8142,-73.2459,admin,150048,
+Quilpué,Chile,-33.0498,-71.4415,minor,147991,
+Talcahuano,Chile,-36.7145,-73.1141,,147831,
+Osorno,Chile,-40.5667,-73.15,minor,147460,
+Colina,Chile,-33.2,-70.6833,minor,146207,
+Los Ángeles,Chile,-37.4707,-72.3517,minor,143023,
+Curicó,Chile,-34.9854,-71.2394,minor,136954,
+Villa Alemana,Chile,-33.0428,-71.3744,,125140,
+Melipilla,Chile,-33.7,-71.2167,minor,123627,
+Punta Arenas,Chile,-53.1627,-70.9081,admin,123403,
+La Granja,Chile,-33.5431,-70.6319,,116571,
+Coronel,Chile,-37.0167,-73.1333,,116262,
+Alto Hospicio,Chile,-20.25,-70.1167,,108375,
+Lo Barnechea,Chile,-33.35,-70.5167,,105833,
+Zagreb,Croatia,45.8131,15.9772,primary,790017,566.84
+Split,Croatia,43.51,16.45,admin,178102,462.68
+Rijeka,Croatia,45.3272,14.4411,admin,128624,385.06
+Nicosia,Cyprus,35.1725,33.365,primary,330000,622.4
+Limassol,Cyprus,34.675,33.0443,admin,235056,1402.7
+Prague,Czechia,50.0833,14.4167,primary,1335084,942.06
+Brno,Czechia,49.1953,16.6083,admin,382405,702.29
+Ostrava,Czechia,49.8356,18.2925,admin,284982,521.17
+Plzeň,Czechia,49.7414,13.3825,admin,175219,533.94
+Liberec,Czechia,50.77,15.0584,admin,104261,499.96
+Olomouc,Czechia,49.5939,17.2508,admin,100514,537.58
+Copenhagen,Denmark,55.6805,12.5615,primary,1085000,1669.06
+Aarhus,Denmark,56.1572,10.2107,minor,237551,1017.38
+Odense,Denmark,55.4004,10.3833,minor,158222,861.64
+Aalborg,Denmark,57.0337,9.9166,admin,122219,718
+Tallinn,Estonia,59.4372,24.745,primary,438341,643.64
+Helsinki,Finland,60.1756,24.9342,primary,642045,970.88
+Espoo,Finland,60.21,24.66,minor,269802,1109.66
+Tampere,Finland,61.4981,23.76,admin,225118,790
+Vantaa,Finland,60.3,25.0333,minor,214605,
+Oulu,Finland,65.0142,25.4719,admin,200526,657.38
+Turku,Finland,60.4517,22.27,admin,187604,701.67
+Jyväskylä,Finland,62.2333,25.7333,admin,137368,
+Kuopio,Finland,62.8925,27.6783,admin,120246,
+Lahti,Finland,60.9804,25.655,admin,118119,
+Paris,France,48.8566,2.3522,primary,11027000,1312.2
+Marseille,France,43.2964,5.37,admin,868277,693.75
+Lyon,France,45.76,4.84,admin,518635,756.92
+Toulouse,France,43.6045,1.444,admin,486828,677.27
+Nice,France,43.7034,7.2663,minor,341032,884.23
+Nantes,France,47.2181,-1.5528,admin,314138,605.38
+Montpellier,France,43.6119,3.8772,minor,290053,
+Strasbourg,France,48.5833,7.7458,admin,284677,
+Bordeaux,France,44.84,-0.58,admin,257068,
+Lille,France,50.6278,3.0583,admin,233098,766.67
+Rennes,France,48.1147,-1.6794,admin,217728,
+Reims,France,49.2628,4.0347,minor,182211,
+Toulon,France,43.1258,5.9306,minor,176198,
+Saint-Étienne,France,45.4347,4.3903,minor,173089,
+Le Havre,France,49.49,0.1,minor,169733,
+Grenoble,France,45.1715,5.7224,minor,157650,594.44
+Dijon,France,47.3167,5.0167,admin,156854,
+Angers,France,47.4736,-0.5542,minor,154508,
+Villeurbanne,France,45.7667,4.8803,,150659,
+Nîmes,France,43.838,4.361,minor,149633,
+Clermont-Ferrand,France,45.7831,3.0824,minor,146734,
+Le Mans,France,48.0077,0.1984,minor,143252,
+Aix-en-Provence,France,43.5263,5.4454,minor,143097,
+Brest,France,48.39,-4.49,minor,139602,
+Tours,France,47.3936,0.6892,minor,136463,
+Amiens,France,49.892,2.299,minor,133891,
+Limoges,France,45.8353,1.2625,minor,131479,
+Annecy,France,45.916,6.133,minor,128199,
+Boulogne-Billancourt,France,48.8352,2.2409,minor,121334,
+Perpignan,France,42.6986,2.8956,minor,119188,
+Besançon,France,47.24,6.02,minor,117912,
+Metz,France,49.1203,6.1778,minor,116581,
+Orléans,France,47.9025,1.909,admin,116238,
+Saint-Denis,France,48.9356,2.3539,minor,112091,
+Rouen,France,49.4428,1.0886,admin,111360,
+Argenteuil,France,48.95,2.25,minor,110213,
+Montreuil,France,48.8611,2.4436,,109914,
+Mulhouse,France,47.75,7.34,minor,108942,
+Caen,France,49.18,-0.37,minor,105512,
+Nancy,France,48.6936,6.1846,minor,104885,
+Berlin,Germany,52.5167,13.3833,primary,3664088,1249.12
+Hamburg,Germany,53.55,10,admin,1852478,1024.38
+Munich,Germany,48.1375,11.575,admin,1488202,1356.84
+Cologne,Germany,50.9422,6.9578,,1083498,881.05
+Frankfurt,Germany,50.1136,8.6797,minor,764104,1118.8
+Düsseldorf,Germany,51.2311,6.7724,admin,645923,1032.06
+Stuttgart,Germany,48.7761,9.1775,admin,630305,967.08
+Leipzig,Germany,51.3333,12.3833,minor,597215,551.67
+Dortmund,Germany,51.5139,7.4653,minor,587696,
+Essen,Germany,51.4508,7.0131,minor,582415,720
+Bremen,Germany,53.0769,8.8089,admin,566573,657.14
+Dresden,Germany,51.05,13.74,admin,554907,544.33
+Hannover,Germany,52.3744,9.7386,admin,542668,700
+Nuremberg,Germany,49.4539,11.0775,minor,515543,691.11
+Duisburg,Germany,51.4322,6.7611,minor,495885,
+Bochum,Germany,51.4833,7.2167,minor,364454,
+Wuppertal,Germany,51.2667,7.1833,minor,355004,
+Bielefeld,Germany,52.0167,8.5333,minor,333509,
+Bonn,Germany,50.7339,7.0997,minor,330579,
+Münster,Germany,51.9625,7.6256,minor,316403,
+Mannheim,Germany,49.4878,8.4661,minor,309721,701.67
+Karlsruhe,Germany,49.0167,8.4,minor,308436,733.33
+Augsburg,Germany,48.3717,10.8983,minor,295830,
+Wiesbaden,Germany,50.0825,8.24,admin,278609,
+Mönchengladbach,Germany,51.2,6.4333,minor,259665,
+Gelsenkirchen,Germany,51.5167,7.1,minor,259105,
+Aachen,Germany,50.7762,6.0838,minor,248960,586.14
+Braunschweig,Germany,52.2692,10.5211,minor,248561,
+Kiel,Germany,54.3233,10.1394,admin,246601,
+Chemnitz,Germany,50.8333,12.9167,minor,243487,
+Halle,Germany,51.4828,11.9697,minor,237865,
+Magdeburg,Germany,52.1317,11.6392,admin,235775,
+Freiburg im Breisgau,Germany,47.995,7.85,minor,230940,907.14
+Krefeld,Germany,51.3333,6.5667,minor,226844,
+Mainz,Germany,50,8.2667,admin,217123,
+Lübeck,Germany,53.8697,10.6864,minor,215846,
+Erfurt,Germany,50.9781,11.0292,admin,213835,
+Oberhausen,Germany,51.4699,6.8514,minor,209566,
+Rostock,Germany,54.0833,12.1333,,209061,
+Kassel,Germany,51.3158,9.4979,minor,201048,
+Hagen,Germany,51.3594,7.475,minor,188687,
+Potsdam,Germany,52.4,13.0667,admin,182112,
+Saarbrücken,Germany,49.2333,7,admin,179349,
+Hamm,Germany,51.6667,7.8167,minor,178967,
+Ludwigshafen,Germany,49.4811,8.4353,minor,172557,
+Mülheim,Germany,51.4275,6.8825,minor,170921,
+Oldenburg,Germany,53.1439,8.2139,minor,168210,
+Osnabrück,Germany,52.2789,8.0431,minor,164748,
+Leverkusen,Germany,51.0333,6.9833,minor,163838,
+Solingen,Germany,51.1667,7.0833,minor,159360,
+Darmstadt,Germany,49.8667,8.65,minor,159207,972.22
+Heidelberg,Germany,49.4122,8.71,minor,158741,1008.33
+Herne,Germany,51.5426,7.219,minor,156374,
+Neuss,Germany,51.2003,6.6939,minor,153796,
+Regensburg,Germany,49.0167,12.0833,minor,152610,
+Paderborn,Germany,51.7167,8.7667,minor,150580,
+Ingolstadt,Germany,48.7636,11.4261,minor,136981,
+Würzburg,Germany,49.7944,9.9294,minor,127880,
+Fürth,Germany,49.4783,10.9903,minor,127748,
+Heilbronn,Germany,49.1404,9.218,minor,126458,
+Ulm,Germany,48.3984,9.9916,minor,126405,
+Pforzheim,Germany,48.895,8.705,minor,126016,
+Wolfsburg,Germany,52.4231,10.7872,minor,124151,
+Göttingen,Germany,51.5339,9.9356,minor,119801,
+Bottrop,Germany,51.5232,6.9253,minor,117383,
+Reutlingen,Germany,48.4833,9.2167,minor,115966,
+Koblenz,Germany,50.3597,7.5978,minor,114024,
+Bremerhaven,Germany,53.55,8.5833,,113634,
+Recklinghausen,Germany,51.6167,7.2,minor,112267,
+Bergisch Gladbach,Germany,50.9917,7.1367,minor,111966,
+Erlangen,Germany,49.5964,11.0044,minor,111962,
+Jena,Germany,50.9272,11.5864,minor,111407,
+Remscheid,Germany,51.1802,7.1872,minor,110994,
+Trier,Germany,49.7557,6.6394,minor,110636,
+Salzgitter,Germany,52.1503,10.3593,minor,104948,
+Moers,Germany,51.4592,6.6197,,103725,
+Siegen,Germany,50.8756,8.0167,minor,102836,
+Hildesheim,Germany,52.15,9.95,minor,101990,
+Gütersloh,Germany,51.9,8.3833,minor,100194,
+Kaiserslautern,Germany,49.4447,7.7689,minor,100030,
+Athens,Greece,37.9842,23.7281,primary,664046,501.67
+Thessaloníki,Greece,40.6403,22.9356,admin,315196,444.29
+Pátra,Greece,38.25,21.7333,admin,167446,
+Piraeus,Greece,37.943,23.6469,minor,163688,
+Lárisa,Greece,39.6385,22.4131,admin,144651,
+Irákleio,Greece,35.3403,25.1344,admin,140730,
+Peristéri,Greece,38.0167,23.6833,minor,139981,
+Kallithéa,Greece,37.95,23.7,minor,100641,
+Budapest,Hungary,47.4983,19.0408,primary,1723836,521.94
+Debrecen,Hungary,47.53,21.6392,admin,200974,362.87
+Szeged,Hungary,46.25,20.1667,admin,159074,358.04
+Miskolc,Hungary,48.1,20.7833,admin,150695,
+Pécs,Hungary,46.0708,18.2331,admin,140237,338.64
+Győr,Hungary,47.6842,17.6344,admin,132735,
+Nyíregyháza,Hungary,47.95,21.7167,admin,116554,
+Kecskemét,Hungary,46.9074,19.6917,admin,109651,
+Reykjavík,Iceland,64.1475,-21.935,primary,128793,1434.62
+Dublin,Ireland,53.3497,-6.2603,primary,553165,1964.31
+Cork,Ireland,51.9,-8.4731,admin,208669,1413.46
+Rome,Italy,41.8931,12.4828,primary,2872800,1005
+Milan,Italy,45.4669,9.19,admin,1366180,1310.83
+Naples,Italy,40.8333,14.25,admin,966144,640.91
+Turin,Italy,45.0667,7.7,admin,870952,570
+Palermo,Italy,38.1111,13.3517,admin,668405,
+Genoa,Italy,44.4072,8.934,admin,580097,661.67
+Bologna,Italy,44.4939,11.3428,admin,389261,790.37
+Florence,Italy,43.7714,11.2542,admin,380948,833.33
+Bari,Italy,41.1253,16.8667,admin,323370,716.67
+Catania,Italy,37.5027,15.0873,minor,311584,481.67
+Venice,Italy,45.4397,12.3319,admin,261321,
+Verona,Italy,45.4386,10.9928,minor,257275,
+Messina,Italy,38.1936,15.5542,minor,234293,
+Padova,Italy,45.4064,11.8778,minor,210440,669.23
+Trieste,Italy,45.6503,13.7703,admin,204338,589.17
+Taranto,Italy,40.4181,17.2408,minor,198283,
+Brescia,Italy,45.5389,10.2203,minor,196745,621.67
+Parma,Italy,44.8015,10.328,minor,195687,562.5
+Prato,Italy,43.8808,11.0966,minor,193325,
+Modena,Italy,44.6458,10.9257,minor,185273,
+Reggio di Calabria,Italy,38.1144,15.65,minor,181447,
+Reggio Emilia,Italy,44.7,10.6333,minor,171944,
+Perugia,Italy,43.1121,12.3888,admin,165683,
+Ravenna,Italy,44.4161,12.2017,minor,159115,
+Livorno,Italy,43.55,10.3167,minor,158371,
+Cagliari,Italy,39.2167,9.1167,admin,154106,633.33
+Foggia,Italy,41.4584,15.5519,minor,151372,
+Rimini,Italy,44.0594,12.5683,minor,149403,600
+Salerno,Italy,40.6806,14.7597,minor,133970,
+Ferrara,Italy,44.8353,11.6199,minor,132278,
+Latina,Italy,41.4676,12.9037,minor,126470,
+Giugliano in Campania,Italy,40.9319,14.1956,,124361,
+Monza,Italy,45.5836,9.2736,minor,123598,
+Siracusa,Italy,37.0692,15.2875,minor,121171,
+Bergamo,Italy,45.695,9.67,minor,120923,650
+Pescara,Italy,42.4643,14.2142,minor,119217,
+Trento,Italy,46.0667,11.1167,admin,117997,790
+Forlì,Italy,44.2225,12.0408,minor,117863,
+Sassari,Italy,40.7267,8.5592,minor,116641,
+Vicenza,Italy,45.55,11.55,minor,111620,
+Terni,Italy,42.5667,12.65,minor,111189,
+Bolzano,Italy,46.5,11.35,minor,107317,
+Novara,Italy,45.45,8.6167,minor,104183,
+Piacenza,Italy,45.05,9.7,minor,103082,
+Ancona,Italy,43.6167,13.5167,admin,100924,
+Riga,Latvia,56.9475,24.1069,primary,614618,455.71
+Vilnius,Lithuania,54.6833,25.2833,primary,574147,745.6
+Kaunas,Lithuania,54.9,23.9333,admin,288466,478.57
+Klaipėda,Lithuania,55.7075,21.1428,admin,164310,387.5
+Šiauliai,Lithuania,55.9281,23.3167,admin,107086,
+Luxembourg,Luxembourg,49.6106,6.1328,primary,128512,1624.56
+Skopje,Macedonia,41.9833,21.4333,primary,640000,
+Tetovo,Macedonia,42.0103,20.9714,admin,142030,
+Amsterdam,Netherlands,52.3667,4.8833,primary,862965,1563.1
+Rotterdam,Netherlands,51.9225,4.4792,minor,631155,1305.04
+The Hague,Netherlands,52.08,4.31,primary,537833,1059.99
+Utrecht,Netherlands,52.0889,5.1156,admin,343779,1338.16
+Eindhoven,Netherlands,51.4344,5.4842,minor,231642,1204.57
+Tilburg,Netherlands,51.57,5.07,minor,217259,
+Almere,Netherlands,52.3758,5.2256,minor,207904,
+Groningen,Netherlands,53.2167,6.5667,admin,201462,867
+Breda,Netherlands,51.5875,4.775,minor,183873,
+Nijmegen,Netherlands,51.8475,5.8625,minor,177659,
+Haarlem,Netherlands,52.3803,4.6406,admin,162902,1476.07
+Apeldoorn,Netherlands,52.21,5.97,minor,161156,
+Enschede,Netherlands,52.2236,6.8956,minor,159703,965.56
+Amersfoort,Netherlands,52.15,5.38,minor,156286,
+Hoofddorp,Netherlands,52.3008,4.6653,minor,154235,
+Zaanstad,Netherlands,52.4697,4.7767,,154037,
+Arnhem,Netherlands,51.9833,5.9167,admin,148070,
+’s-Hertogenbosch,Netherlands,51.6833,5.3167,admin,134520,
+Zoetermeer,Netherlands,52.0611,4.4933,minor,124994,
+Zwolle,Netherlands,52.5167,6.1,admin,124914,
+Leiden,Netherlands,52.1544,4.4947,minor,124899,
+Maastricht,Netherlands,50.8667,5.6833,admin,121565,1068.33
+Dordrecht,Netherlands,51.81,4.67,minor,118654,
+Alphen aan den Rijn,Netherlands,52.1333,4.65,minor,110986,
+Alkmaar,Netherlands,52.6289,4.744,minor,107822,
+Emmen,Netherlands,52.7833,6.9,minor,107471,
+Delft,Netherlands,52.0119,4.3594,minor,100011,1103.75
+Oslo,Norway,59.9111,10.7528,primary,693494,1243.07
+Bergen,Norway,60.3925,5.3233,admin,257087,996.06
+Trondheim,Norway,63.44,10.4,minor,183378,1054.32
+Stavanger,Norway,58.9701,5.7333,admin,129300,967.25
+Kristiansand,Norway,58.1467,7.9956,minor,112588,
+Drammen,Norway,59.7439,10.2045,minor,109416,
+Lisbon,Portugal,38.708,-9.139,primary,506654,1225.29
+Sintra,Portugal,38.7974,-9.3904,minor,377835,
+Vila Nova de Gaia,Portugal,41.1333,-8.6167,minor,302295,666.67
+Porto,Portugal,41.1495,-8.6108,admin,237591,832.22
+Cascais,Portugal,38.6969,-9.4206,minor,206479,1011.11
+Loures,Portugal,38.8333,-9.1667,minor,205054,
+Braga,Portugal,41.5503,-8.42,admin,181494,604.29
+Matosinhos,Portugal,41.1867,-8.6844,minor,175478,866.67
+Amadora,Portugal,38.75,-9.2333,minor,175136,707.50
+Almada,Portugal,38.6803,-9.1583,minor,174030,816,67
+Oeiras,Portugal,38.697,-9.3017,minor,172120,930.00
+Gondomar,Portugal,41.15,-8.5333,minor,168027,
+Seixal,Portugal,38.6333,-9.0833,minor,158269,400
+Guimarães,Portugal,41.445,-8.2908,minor,158124,566.67
+Odivelas,Portugal,38.8,-9.1833,minor,144549,717.29
+Coimbra,Portugal,40.2111,-8.4289,admin,143396,544.44
+Vila Franca de Xira,Portugal,38.95,-8.9833,minor,136886,450
+Maia,Portugal,41.2333,-8.6167,minor,135306,662.50
+Famalicão,Portugal,41.4167,-8.5167,minor,133832,600
+Leiria,Portugal,39.7431,-8.8069,admin,126897,690
+Setúbal,Portugal,38.5236,-8.8935,admin,123684,690
+Barcelos,Portugal,41.5333,-8.6167,minor,120391,
+Funchal,Portugal,32.65,-16.9167,admin,111892,812.5
+Bucharest,Romania,44.4,26.0833,primary,1883425,441.1
+Cluj-Napoca,Romania,46.78,23.5594,admin,324576,440.99
+Timişoara,Romania,45.7597,21.23,admin,319279,377.4
+Braşov,Romania,45.65,25.6,admin,290743,382.54
+Iaşi,Romania,47.1622,27.5889,admin,290422,353.41
+Constanţa,Romania,44.1733,28.6383,admin,283872,385.11
+Craiova,Romania,44.3333,23.8167,admin,269506,255.89
+Galaţi,Romania,45.4233,28.0425,admin,249432,
+Ploieşti,Romania,44.9386,26.0225,admin,209945,
+Oradea,Romania,47.0722,21.9211,admin,196367,273.48
+Brăila,Romania,45.2692,27.9575,admin,180302,
+Arad,Romania,46.1667,21.3167,admin,159074,
+Piteşti,Romania,44.8667,24.8833,admin,155383,
+Sibiu,Romania,45.8,24.15,admin,147245,294.04
+Bacău,Romania,46.5833,26.9167,admin,144307,
+Târgu-Mureş,Romania,46.5497,24.5597,admin,134290,
+Baia Mare,Romania,47.6597,23.5819,admin,123738,
+Buzău,Romania,45.1517,26.8167,admin,115494,
+Botoşani,Romania,47.7486,26.6694,admin,106847,
+Satu Mare,Romania,47.79,22.89,admin,102411,
+Belgrade,Serbia,44.8167,20.4667,primary,1378682,741.49
+Novi Sad,Serbia,45.2644,19.8317,admin,380000,434.84
+Niš,Serbia,43.3192,21.8961,admin,183164,250.1
+Zemun,Serbia,44.85,20.4,minor,161596,
+Kragujevac,Serbia,44.0142,20.9394,admin,150623,
+Bratislava,Slovakia,48.1447,17.1128,primary,475503,667.08
+Košice,Slovakia,48.7167,21.25,admin,238593,540.77
+Petržalka,Slovakia,48.1333,17.1167,,114000,
+Ljubljana,Slovenia,46.05,14.5167,primary,286745,680.89
+Madrid,Spain,40.4167,-3.7167,primary,6006000,1009.3
+Barcelona,Spain,41.3825,2.1769,admin,4735000,1033.62
+Valencia,Spain,39.47,-0.3764,admin,789744,793.95
+Sevilla,Spain,37.39,-5.99,admin,684234,656.06
+Zaragoza,Spain,41.65,-0.8833,admin,675301,614.29
+Málaga,Spain,36.7194,-4.42,minor,577405,769.32
+Murcia,Spain,37.9861,-1.1303,admin,460349,625
+Palma,Spain,39.5667,2.65,admin,419366,833.33
+Las Palmas,Spain,28.1272,-15.4314,admin,378675,814.29
+Bilbao,Spain,43.2569,-2.9236,minor,346405,935.71
+Alicante,Spain,38.3453,-0.4831,minor,337304,657.5
+Córdoba,Spain,37.8845,-4.7796,minor,322071,
+Valladolid,Spain,41.6528,-4.7236,admin,297775,
+Vigo,Spain,42.2314,-8.7124,,293837,579.17
+Gijón,Spain,43.5333,-5.7,,268896,
+Vitoria-Gasteiz,Spain,42.85,-2.6833,admin,253093,
+A Coruña,Spain,43.3667,-8.3833,minor,245468,
+Elche,Spain,38.2669,-0.6983,,234205,
+Granada,Spain,37.1781,-3.6008,minor,231775,537.5
+Tarrasa,Spain,41.5611,2.0081,,223011,
+Badalona,Spain,41.4333,2.2333,,223006,
+Oviedo,Spain,43.36,-5.845,admin,217552,526.67
+Cartagena,Spain,37.6,-0.9819,,216365,
+Sabadell,Spain,41.5483,2.1075,,216204,
+Jerez de la Frontera,Spain,36.6817,-6.1378,,212801,
+Móstoles,Spain,40.3333,-3.8667,,209639,
+Santa Cruz,Spain,28.4667,-16.25,admin,208563,662.23
+Pamplona,Spain,42.8167,-1.65,admin,203081,770
+Almería,Spain,36.8403,-2.4681,minor,200753,
+Alcalá de Henares,Spain,40.4818,-3.3643,,195982,
+Fuenlabrada,Spain,40.2833,-3.8,,192233,
+Donostia,Spain,43.32,-1.98,minor,188102,
+Leganés,Spain,40.3281,-3.7644,,187762,
+Getafe,Spain,40.3047,-3.7311,,183095,
+Burgos,Spain,42.3408,-3.6997,minor,174051,
+Albacete,Spain,38.9956,-1.8558,minor,172722,
+Castellón de la Plana,Spain,39.9831,-0.0331,minor,172589,
+Santander,Spain,43.4628,-3.805,admin,172221,
+Alcorcón,Spain,40.35,-3.8333,,170817,
+La Laguna,Spain,28.4853,-16.3167,,158010,
+Logroño,Spain,42.465,-2.4456,admin,150808,
+Badajoz,Spain,38.8803,-6.9753,minor,150610,
+Marbella,Spain,36.5167,-4.8833,,147958,
+Salamanca,Spain,40.9667,-5.6639,minor,143269,
+Huelva,Spain,37.25,-6.95,minor,142538,
+Lleida,Spain,41.6167,0.6333,minor,140080,
+Dos Hermanas,Spain,37.2836,-5.9222,,136250,
+Tarragona,Spain,41.1187,1.2453,minor,135436,
+Torrejón de Ardoz,Spain,40.4614,-3.4978,,132771,
+Parla,Spain,40.2372,-3.7742,,131689,
+Mataró,Spain,41.5333,2.45,,129120,
+Algeciras,Spain,36.1275,-5.4539,,122982,
+León,Spain,42.6056,-5.57,minor,122051,
+Alcobendas,Spain,40.5333,-3.6333,,116589,
+Cádiz,Spain,36.535,-6.2975,minor,114244,
+Jaén,Spain,37.7667,-3.7711,minor,111932,
+Reus,Spain,41.1549,1.1087,,106084,
+Ourense,Spain,42.3364,-7.8633,minor,104596,
+Telde,Spain,27.9985,-15.4167,,102769,
+Girona,Spain,41.9833,2.8167,minor,101932,
+San Vicente de Baracaldo,Spain,43.2972,-2.9917,,100907,
+Stockholm,Sweden,59.3294,18.0686,primary,975819,1330.49
+Gothenburg,Sweden,57.6717,11.981,admin,604829,987.01
+Malmö,Sweden,55.5833,13.0333,admin,269349,750.02
+Uppsala,Sweden,59.8498,17.6389,admin,165456,833.36
+Uppsala,Sweden,59.8601,17.64,,133117,
+Västerås,Sweden,59.6173,16.5422,admin,128534,
+Örebro,Sweden,59.2669,15.1965,admin,126009,
+Linköping,Sweden,58.4094,15.6257,admin,115672,
+Helsingborg,Sweden,56.0424,12.721,minor,113816,
+Zürich,Switzerland,47.3744,8.5411,admin,434008,2144.13
+Geneva,Switzerland,46.2,6.15,admin,201818,2066.39
+Basel,Switzerland,47.5606,7.5906,admin,177827,
+Lausanne,Switzerland,46.5333,6.6333,admin,138905,1550.92
+Bern,Switzerland,46.948,7.4474,primary,133798,1206.09
+Winterthur,Switzerland,47.4992,8.7267,minor,109775,
+London,United Kingdom,51.5072,-0.1275,primary,11120000,2304.49
+Birmingham,United Kingdom,52.48,-1.9025,,1137100,925.08
+Leeds,United Kingdom,53.7997,-1.5492,,789194,935.06
+Glasgow,United Kingdom,55.8611,-4.25,,626410,887.4
+Bristol,United Kingdom,51.45,-2.5833,,567111,1268.82
+Manchester,United Kingdom,53.4794,-2.2453,,547627,1025.97
+Sheffield,United Kingdom,53.3808,-1.4703,,518090,793.73
+Liverpool,United Kingdom,53.4075,-2.9919,,513441,882.3
+Edinburgh,United Kingdom,55.953,-3.189,,488050,1136.16
+Leicester,United Kingdom,52.6344,-1.1319,,464395,817.67
+Coventry,United Kingdom,52.4081,-1.5106,,362690,925.21
+Caerdydd,United Kingdom,51.4817,-3.1792,,361469,884.37
+Belfast,United Kingdom,54.5964,-5.93,,333871,979.15
+Newcastle,United Kingdom,55.0077,-1.6578,,300196,923.3
+Bradford,United Kingdom,53.8,-1.75,,293277,
+Ipswich,United Kingdom,52.0594,1.1556,,290000,
+Nottingham,United Kingdom,52.9533,-1.15,,289301,862.78
+Bolton,United Kingdom,53.578,-2.429,,285372,
+Sunderland,United Kingdom,54.906,-1.381,,277417,
+Southampton,United Kingdom,50.9025,-1.4042,,271173,906.9
+Plymouth,United Kingdom,50.3714,-4.1422,,267918,835.55
+Kingston upon Hull,United Kingdom,53.7444,-0.3325,,260200,509.78
+Derby,United Kingdom,52.9217,-1.4769,,255394,
+Westminster,United Kingdom,51.4947,-0.1353,,255324,
+Wolverhampton,United Kingdom,52.5833,-2.1333,,250970,
+Stoke-on-Trent,United Kingdom,53,-2.1833,,249008,
+Portsmouth,United Kingdom,50.8058,-1.0872,,248440,818.65
+Abertawe,United Kingdom,51.6167,-3.95,,245508,
+Barnsley,United Kingdom,53.5547,-1.4791,,245199,
+Swindon,United Kingdom,51.56,-1.78,,222193,
+Luton,United Kingdom,51.8783,-0.4147,,213052,
+Northampton,United Kingdom,52.2304,-0.8938,,212100,
+Milton Keynes,United Kingdom,52.04,-0.76,,207057,1175.87
+Solihull,United Kingdom,52.413,-1.778,,206674,
+Aberdeen,United Kingdom,57.15,-2.11,,200680,622.02
+Norwich,United Kingdom,52.63,1.297,,195971,965.64
+Peterborough,United Kingdom,52.5725,-0.2431,,194000,
+Bournemouth,United Kingdom,50.72,-1.88,,187503,980.13
+Basildon,United Kingdom,51.5761,0.4886,,185900,
+York,United Kingdom,53.9583,-1.0803,,181131,
+Warrington,United Kingdom,53.3917,-2.5972,,165456,
+Huddersfield,United Kingdom,53.645,-1.7798,,162949,
+Reading,United Kingdom,51.4542,-0.9731,,162666,1234.64
+Southend,United Kingdom,51.55,0.71,,160257,
+Oxford,United Kingdom,51.7519,-1.2578,,152000,1333.12
+Dundee,United Kingdom,56.462,-2.9707,,148280,642.15
+West Bromwich,United Kingdom,52.519,-1.995,,146386,
+Newport,United Kingdom,51.5833,-3,,145700,
+Gloucester,United Kingdom,51.8644,-2.2444,,145563,
+Poole,United Kingdom,50.7167,-1.9833,,144800,
+Birkenhead,United Kingdom,53.393,-3.014,,142968,
+Telford,United Kingdom,52.6766,-2.4469,,142723,
+Preston,United Kingdom,53.759,-2.699,,141801,
+Middlesbrough,United Kingdom,54.5767,-1.2355,,140545,
+Blackpool,United Kingdom,53.8142,-3.0503,,139305,
+Brighton,United Kingdom,50.8284,-0.1395,,134293,1304.96
+Sale,United Kingdom,53.424,-2.322,,134022,
+Exeter,United Kingdom,50.7167,-3.5333,,124180,872.4
+Cambridge,United Kingdom,52.2053,0.1192,,123867,1427.01
+Colchester,United Kingdom,51.8917,0.903,,121859,
+High Wycombe,United Kingdom,51.6287,-0.7482,,120256,
+Gateshead,United Kingdom,54.95,-1.6,,120046,
+Slough,United Kingdom,51.51,-0.59,,119070,
+Blackburn,United Kingdom,53.748,-2.482,,117963,
+Cheltenham,United Kingdom,51.9,-2.0667,,116447,
+Chelmsford,United Kingdom,51.7361,0.4798,,115369,
+Rochdale,United Kingdom,53.6136,-2.161,,110194,
+Doncaster,United Kingdom,53.5228,-1.1325,,109805,
+Rotherham,United Kingdom,53.43,-1.357,,109691,
+Worthing,United Kingdom,50.8147,-0.3714,,109120,
+Maidstone,United Kingdom,51.272,0.529,,107627,
+Basingstoke,United Kingdom,51.2667,-1.0876,,107355,
+Crawley,United Kingdom,51.1092,-0.1872,,106597,
+Gillingham,United Kingdom,51.385,0.55,,104157,
+Salford,United Kingdom,53.483,-2.2931,,103886,
+Wigan,United Kingdom,53.5448,-2.6318,,103608,
+Saint Helens,United Kingdom,53.4541,-2.7461,,102629,
+Worcester,United Kingdom,52.192,-2.22,,101891,
+Eastbourne,United Kingdom,50.77,0.28,,101547,
+New York,United States,40.6943,-73.9249,,18713220,3734.86
+Los Angeles,United States,34.1139,-118.4068,,12750807,2503.67
+Chicago,United States,41.8373,-87.6862,,8604203,1879.79
+Miami,United States,25.7839,-80.2102,,6445545,2491.75
+Dallas,United States,32.7936,-96.7662,,5743938,1699.07
+Philadelphia,United States,40.0077,-75.1339,,5649300,1769.74
+Houston,United States,29.7863,-95.3889,,5464251,1494.19
+Atlanta,United States,33.7627,-84.4224,admin,5449398,1804.49
+Washington,United States,38.9047,-77.0163,primary,5379184,2215.61
+Boston,United States,42.3188,-71.0846,admin,4688346,2580.23
+Phoenix,United States,33.5722,-112.0891,admin,4219697,1637.82
+Seattle,United States,47.6211,-122.3244,,3789215,2287.46
+San Francisco,United States,37.7562,-122.443,,3592294,3102.44
+Detroit,United States,42.3834,-83.1024,,3506126,1190.32
+San Diego,United States,32.8312,-117.1225,,3220118,2539.62
+Minneapolis,United States,44.9635,-93.2678,,2977172,1500.67
+Tampa,United States,27.9942,-82.4451,,2908063,1977.74
+Denver,United States,39.7621,-104.8759,admin,2876625,1803.48
+Brooklyn,United States,40.6501,-73.9496,,2559903,2653.27
+Queens,United States,40.7498,-73.7976,,2230722,
+Riverside,United States,33.9381,-117.3948,,2107852,
+Baltimore,United States,39.3051,-76.6144,,2106068,1365.7
+Las Vegas,United States,36.2333,-115.2654,,2104198,1374.68
+Portland,United States,45.5372,-122.65,,2074775,1674.06
+San Antonio,United States,29.4658,-98.5253,,2049293,1404.58
+St. Louis,United States,38.6358,-90.2451,,2024074,
+Sacramento,United States,38.5667,-121.4683,admin,1898019,1708.6
+Orlando,United States,28.4772,-81.3369,,1822394,1716.54
+San Jose,United States,37.3019,-121.8486,,1798103,2288.97
+Cleveland,United States,41.4767,-81.6804,,1710093,1414.82
+Pittsburgh,United States,40.4396,-79.9762,,1703266,1428.47
+Austin,United States,30.3004,-97.7522,admin,1687311,2278.85
+Cincinnati,United States,39.1413,-84.5061,,1662691,1334.42
+Kansas City,United States,39.1239,-94.5541,,1636715,
+Manhattan,United States,40.7834,-73.9662,,1628706,
+Indianapolis,United States,39.7771,-86.1458,admin,1588961,1278.55
+Columbus,United States,39.9862,-82.985,admin,1562009,
+Charlotte,United States,35.208,-80.8304,,1512923,1787.29
+Virginia Beach,United States,36.7335,-76.0435,,1478868,
+Bronx,United States,40.8501,-73.8662,,1418207,
+Milwaukee,United States,43.0642,-87.9673,,1365787,1441.63
+Providence,United States,41.823,-71.4187,admin,1203230,
+Jacksonville,United States,30.3322,-81.6749,,1181496,
+Salt Lake City,United States,40.7777,-111.9306,admin,1098526,1549.27
+Nashville,United States,36.1715,-86.7843,admin,1081903,1984.49
+Richmond,United States,37.5295,-77.4756,admin,1075798,
+Memphis,United States,35.1046,-89.9773,,1066967,1249.95
+Raleigh,United States,35.8325,-78.6435,admin,1038738,1758.46
+New Orleans,United States,30.0687,-89.9288,,1020886,1484.25
+Louisville,United States,38.1663,-85.6485,,1005654,1214.09
+Oklahoma City,United States,35.4676,-97.5136,admin,972943,1247.15
+Bridgeport,United States,41.1918,-73.1953,,924449,
+Buffalo,United States,42.9016,-78.8487,,914341,1213.43
+Fort Worth,United States,32.7811,-97.3473,,909585,1303.88
+Hartford,United States,41.7661,-72.6834,admin,905152,
+Tucson,United States,32.1545,-110.8782,,888486,1334.55
+Omaha,United States,41.2627,-96.0522,,847819,1052.5
+El Paso,United States,31.8479,-106.4309,,843386,
+Honolulu,United States,21.3294,-157.846,admin,820987,2007.99
+McAllen,United States,26.2273,-98.2471,,804114,
+Hempstead,United States,40.6629,-73.6089,,767417,
+Albuquerque,United States,35.1053,-106.6464,,761195,1418.99
+Birmingham,United States,33.5277,-86.7987,,739573,1260.8
+Sarasota,United States,27.3386,-82.5431,,722243,2004.76
+Dayton,United States,39.7797,-84.1998,,718353,
+Rochester,United States,43.168,-77.6162,,703952,
+Fresno,United States,36.7831,-119.7941,,703498,1315.62
+Allentown,United States,40.5961,-75.4756,,683794,
+Tulsa,United States,36.1284,-95.9042,,671033,
+Cape Coral,United States,26.6446,-81.9956,,668382,
+Concord,United States,37.9722,-122.0016,,652308,
+Colorado Springs,United States,38.8674,-104.7606,,642413,1437.45
+Charleston,United States,32.8153,-79.9628,,628377,
+Springfield,United States,42.1155,-72.5395,,623401,
+Grand Rapids,United States,42.962,-85.6562,,609314,1487.03
+Mission Viejo,United States,33.6095,-117.655,,590249,
+Albany,United States,42.6664,-73.7987,admin,586383,
+Knoxville,United States,35.9692,-83.9496,,586048,1284.3
+Bakersfield,United States,35.3529,-119.0359,,579295,
+Ogden,United States,41.2278,-111.9682,,578523,
+Baton Rouge,United States,30.4418,-91.131,admin,570308,
+Akron,United States,41.0798,-81.5219,,565208,
+New Haven,United States,41.3112,-72.9246,,564830,
+Columbia,United States,34.0376,-80.9037,admin,560041,
+Mesa,United States,33.4017,-111.718,,518012,
+Palm Bay,United States,27.955,-80.6627,,507002,
+Provo,United States,40.2457,-111.6457,,500617,
+Worcester,United States,42.2705,-71.8079,,498328,
+Murrieta,United States,33.572,-117.1909,,496046,
+Greenville,United States,34.8353,-82.3647,,484465,1715.01
+Brookhaven,United States,40.8321,-72.9518,,483546,
+Wichita,United States,37.6896,-97.3442,,482249,
+Toledo,United States,41.6639,-83.5822,,482111,
+Staten Island,United States,40.5834,-74.1496,,476143,
+Des Moines,United States,41.5725,-93.6105,admin,473957,
+Long Beach,United States,33.7981,-118.1675,,462628,
+Port St. Lucie,United States,27.2796,-80.3883,,461152,
+Denton,United States,33.2176,-97.1419,,457177,
+Madison,United States,43.0826,-89.3931,admin,447245,1422.75
+Reno,United States,39.5497,-119.8483,,445020,1491.56
+Harrisburg,United States,40.2752,-76.8843,admin,442289,
+Little Rock,United States,34.7256,-92.3576,admin,439815,
+Oakland,United States,37.7903,-122.2165,,433031,
+Durham,United States,35.9794,-78.9031,,424700,
+Winston-Salem,United States,36.1029,-80.2611,,422269,
+Bonita Springs,United States,26.3559,-81.7861,,421291,
+Indio,United States,33.7346,-116.2346,,417059,
+Palm Coast,United States,29.5392,-81.246,,417007,
+Chattanooga,United States,35.0657,-85.2488,,415501,1298
+Spokane,United States,47.6671,-117.433,,412275,1459.28
+Syracuse,United States,43.0409,-76.1438,,404223,
+Lancaster,United States,40.0421,-76.3012,,401524,
+Arlington,United States,32.6998,-97.125,,398854,
+Stockton,United States,37.9765,-121.3109,,397264,
+Poughkeepsie,United States,41.6949,-73.921,,394760,
+Augusta,United States,33.3645,-82.0708,,390809,
+Boise,United States,43.6007,-116.2312,admin,389280,1528.07
+Oxnard,United States,34.1963,-119.1815,,387647,
+Scranton,United States,41.4044,-75.6649,,384250,
+Modesto,United States,37.6374,-121.0028,,383134,
+Kissimmee,United States,28.3042,-81.4164,,382720,
+Aurora,United States,39.7087,-104.7273,,379289,
+Youngstown,United States,41.0993,-80.6463,,378732,
+Fayetteville,United States,36.0713,-94.166,,351246,
+Anaheim,United States,33.839,-117.8572,,350365,
+Pensacola,United States,30.4427,-87.1886,,346921,
+Victorville,United States,34.5277,-117.3536,,346789,
+Lancaster,United States,34.6935,-118.1753,,343304,
+Greensboro,United States,36.0956,-79.8269,,343090,
+Corpus Christi,United States,27.726,-97.3755,,342464,
+Fort Wayne,United States,41.0886,-85.1437,,334122,
+Santa Ana,United States,33.7366,-117.8819,,332318,
+Flint,United States,43.0235,-83.6922,,332190,
+Islip,United States,40.7384,-73.1887,,331499,
+Fayetteville,United States,35.0846,-78.9776,,327435,
+Jackson,United States,32.3163,-90.2124,admin,325350,
+Santa Rosa,United States,38.4458,-122.7067,,324634,
+Lansing,United States,42.7142,-84.5601,admin,324286,
+Lexington,United States,38.0423,-84.4587,,323152,
+Ann Arbor,United States,42.2755,-83.7312,,322267,
+Henderson,United States,36.0133,-115.038,,320189,
+Huntsville,United States,34.6988,-86.6412,,319249,
+Mobile,United States,30.6783,-88.1162,,315502,
+Fort Collins,United States,40.5478,-105.0656,,312666,
+Asheville,United States,35.5704,-82.5536,,312507,
+Santa Clarita,United States,34.4175,-118.4964,,312446,
+St. Paul,United States,44.9477,-93.104,admin,308096,1335.12
+Antioch,United States,37.9789,-121.7958,,302419,
+Lakeland,United States,28.0556,-81.9545,,302284,
+Oyster Bay,United States,40.7845,-73.5139,,297822,
+Trenton,United States,40.2236,-74.7641,admin,290716,
+Lincoln,United States,40.809,-96.6788,admin,289490,
+Springfield,United States,37.1943,-93.2916,,288090,
+Anchorage,United States,61.1508,-149.1091,,288000,1299.96
+Plano,United States,33.0502,-96.7487,,287677,
+Irvine,United States,33.6772,-117.7738,,287401,
+Davenport,United States,41.5563,-90.6052,,285362,
+Rockford,United States,42.2597,-89.0641,,282762,
+Newark,United States,40.7245,-74.1725,,282011,
+South Bend,United States,41.6767,-86.2696,,280498,
+Shreveport,United States,32.4656,-93.7956,,280062,
+Round Lake Beach,United States,42.379,-88.0811,,279381,
+Savannah,United States,32.0281,-81.1784,,276295,
+Myrtle Beach,United States,33.7096,-78.8843,,275579,
+Chula Vista,United States,32.6281,-117.0145,,274492,
+Eugene,United States,44.0563,-123.1173,,273439,1413.82
+Canton,United States,40.8075,-81.3677,,269418,
+Lubbock,United States,33.5659,-101.8878,,267648,
+Reading,United States,40.34,-75.9267,,267155,
+Winter Haven,United States,28.0118,-81.7017,,267069,
+Salem,United States,44.9231,-123.0246,admin,266804,
+St. Petersburg,United States,27.7931,-82.6652,,265351,1902.95
+Lafayette,United States,30.2084,-92.0323,,264357,
+Laredo,United States,27.5629,-99.4875,,262491,
+Jersey City,United States,40.7161,-74.0682,,262075,
+Concord,United States,35.3933,-80.6366,,261801,
+Columbus,United States,32.51,-84.8771,,261445,1371.07
+Chandler,United States,33.2826,-111.8516,,261165,
+McKinney,United States,33.2015,-96.6669,,258277,
+Scottsdale,United States,33.6872,-111.8651,,258069,
+Killeen,United States,31.0754,-97.7296,,258009,
+Tallahassee,United States,30.4551,-84.2526,admin,257601,
+Peoria,United States,40.752,-89.6153,,256286,
+Wilmington,United States,34.21,-77.8866,,255616,
+Montgomery,United States,32.3473,-86.2666,admin,254634,
+Gilbert,United States,33.3101,-111.7463,,254114,
+Glendale,United States,33.5791,-112.2311,,252381,
+North Las Vegas,United States,36.288,-115.0901,,251974,
+Chesapeake,United States,36.6778,-76.3024,,244835,
+Barnstable,United States,41.6722,-70.3599,,242847,
+Norfolk,United States,36.8945,-76.259,,242742,
+Fremont,United States,37.5265,-121.9852,,241110,
+Kennewick,United States,46.1978,-119.1732,,240735,
+Garland,United States,32.91,-96.6305,,239928,
+Irving,United States,32.8584,-96.9702,,239798,
+Visalia,United States,36.3276,-119.3269,,237386,
+Atlantic City,United States,39.3797,-74.4527,,237054,
+Paradise,United States,36.0807,-115.1369,,235087,
+Nashua,United States,42.7491,-71.491,,233917,
+Arlington,United States,38.8786,-77.1011,,233464,
+Hialeah,United States,25.8696,-80.3046,,233339,
+York,United States,39.9651,-76.7315,,233184,
+North Hempstead,United States,40.7912,-73.6688,,230531,
+Evansville,United States,37.9881,-87.5341,,230427,
+Avondale,United States,33.3858,-112.3236,,227289,
+Brownsville,United States,25.998,-97.4565,,227239,
+Gulfport,United States,30.4271,-89.0703,,220987,
+Appleton,United States,44.2779,-88.3891,,220570,
+Bremerton,United States,47.5436,-122.7122,,218400,
+Hickory,United States,35.7425,-81.323,,218323,
+Tacoma,United States,47.2431,-122.4531,,217827,1644.08
+San Bernardino,United States,34.1417,-117.2946,,215784,
+College Station,United States,30.5852,-96.296,,215243,
+Kalamazoo,United States,42.2749,-85.5882,,215193,
+Thousand Oaks,United States,34.1914,-118.8755,,215029,
+Roanoke,United States,37.2785,-79.958,,214674,
+Fontana,United States,34.0968,-117.4599,,214547,
+Moreno Valley,United States,33.9244,-117.2045,,213055,
+Babylon,United States,40.6924,-73.3585,,211207,
+North Port,United States,27.0577,-82.1975,,209070,
+Fargo,United States,46.8652,-96.8292,,208675,
+Green Bay,United States,44.515,-87.9896,,207557,
+Spring Valley,United States,36.0987,-115.2619,,207127,
+Amarillo,United States,35.1988,-101.8311,,205603,
+Portland,United States,43.6773,-70.2715,,203969,
+Santa Barbara,United States,34.4285,-119.7202,,202401,2756.93
+Gainesville,United States,29.6804,-82.3458,,202335,
+Huntington,United States,40.8522,-73.3824,,201718,
+Olympia,United States,47.0417,-122.8959,admin,200915,
+Frisco,United States,33.1555,-96.8215,,200490,
+Yonkers,United States,40.9466,-73.8674,,200370,
+Norwich,United States,41.5495,-72.0882,,200289,
+Glendale,United States,34.1818,-118.2468,,199303,
+Huntington Beach,United States,33.696,-118.0025,,199223,
+Deltona,United States,28.905,-81.2137,,198361,
+Aurora,United States,41.7637,-88.2901,,197757,
+Tempe,United States,33.3881,-111.9318,,195805,
+Overland Park,United States,38.887,-94.687,,195494,
+Grand Prairie,United States,32.6872,-97.0209,,194543,
+Sunrise Manor,United States,36.1785,-115.049,,193781,
+Waco,United States,31.5598,-97.1881,,192315,
+Salinas,United States,36.6884,-121.6317,,190972,
+Waterbury,United States,41.5583,-73.0361,,189614,
+Clarksville,United States,36.5695,-87.342,,188746,
+Cedar Rapids,United States,41.9665,-91.6782,,188038,
+Sioux Falls,United States,43.5397,-96.732,,187239,
+Huntington,United States,38.4109,-82.4344,,186034,
+Ontario,United States,34.0393,-117.6064,,185010,
+Hagerstown,United States,39.6401,-77.7217,,184755,
+Erie,United States,42.1168,-80.0733,,184484,
+Vancouver,United States,45.6366,-122.5967,,184463,
+Nampa,United States,43.5845,-116.5631,,184428,
+Spartanburg,United States,34.9437,-81.9257,,182701,
+Gastonia,United States,35.2494,-81.1853,,182581,
+Fort Lauderdale,United States,26.1412,-80.1464,,182437,2278.85
+Lorain,United States,41.4409,-82.184,,180279,
+Murfreesboro,United States,35.8492,-86.4119,,179951,
+High Point,United States,35.9907,-79.9938,,179913,
+Newport News,United States,37.1051,-76.5185,,179225,
+Rancho Cucamonga,United States,34.1248,-117.5666,,177603,
+Hemet,United States,33.7341,-116.9969,,177253,
+Santa Cruz,United States,36.9789,-122.0346,,176428,
+Danbury,United States,41.4016,-73.471,,176030,
+Peoria,United States,33.7844,-112.2989,,175961,
+Oceanside,United States,33.2247,-117.3083,,175742,
+Elk Grove,United States,38.416,-121.3842,,174775,
+Pembroke Pines,United States,26.0128,-80.3382,,173591,
+Vallejo,United States,38.1133,-122.2358,,173256,
+Garden Grove,United States,33.7787,-117.9601,,171644,
+Enterprise,United States,36.0164,-115.2208,,171108,
+Medford,United States,42.3372,-122.8537,,170876,
+Cary,United States,35.782,-78.8191,,170282,
+Marysville,United States,48.0809,-122.1561,,170009,
+Corona,United States,33.8616,-117.5649,,169868,
+Ocala,United States,29.178,-82.1511,,169383,
+Fredericksburg,United States,38.2992,-77.4872,,168909,
+Gainesville,United States,34.2903,-83.8301,,167371,
+Manchester,United States,42.9848,-71.4447,,162877,
+Champaign,United States,40.1144,-88.2735,,159443,
+Alexandria,United States,38.8185,-77.0861,,159428,
+Hayward,United States,37.6328,-122.0772,,159203,
+Springfield,United States,39.771,-89.6538,admin,158509,
+Lakewood,United States,39.6977,-105.1168,,157935,
+Lafayette,United States,40.399,-86.8594,,157820,
+Frederick,United States,39.4336,-77.4141,,156787,
+Lake Charles,United States,30.2012,-93.2122,,156181,
+Odessa,United States,31.8831,-102.3406,,155998,
+Tuscaloosa,United States,33.2348,-87.5267,,155499,
+Warner Robins,United States,32.597,-83.6529,,155140,
+Palmdale,United States,34.5944,-118.1057,,155079,
+Hollywood,United States,26.0294,-80.1679,,154817,
+Midland,United States,32.0249,-102.1137,,154793,
+Leesburg,United States,28.7657,-81.8996,,154574,
+Port Arthur,United States,29.8554,-93.9264,,154468,
+Muskegon,United States,43.2281,-86.2563,,153565,
+Macon,United States,32.8065,-83.6974,,153159,
+Kansas City,United States,39.1234,-94.7443,,152960,1228.81
+Sunnyvale,United States,37.3836,-122.0256,,152703,
+Pomona,United States,34.0585,-117.7626,,151691,
+Escondido,United States,33.1347,-117.0722,,151625,
+Pasadena,United States,29.6583,-95.1499,,151227,
+New Bedford,United States,41.6697,-70.9428,,149910,
+Fairfield,United States,38.2592,-122.0324,,148683,
+Naperville,United States,41.7483,-88.1657,,148449,
+Bellevue,United States,47.5951,-122.1535,,148164,
+Binghamton,United States,42.1014,-75.9093,,148145,
+Elkhart,United States,41.6916,-85.9628,,147567,
+Topeka,United States,39.0346,-95.6955,admin,147458,
+Joliet,United States,41.5189,-88.1499,,147344,
+Beaumont,United States,30.0849,-94.1451,,146091,
+Paterson,United States,40.9147,-74.1624,,145233,
+Merced,United States,37.3057,-120.4778,,145149,
+Pueblo,United States,38.2705,-104.6112,,143932,
+Tyler,United States,32.3184,-95.3062,,143796,
+Torrance,United States,33.8346,-118.3417,,143592,
+Yuma,United States,32.5992,-114.5488,,142847,
+Metairie,United States,29.9977,-90.178,,142135,
+Surprise,United States,33.68,-112.4524,,141664,
+Columbia,United States,38.9478,-92.3256,,141645,
+Athens,United States,33.9508,-83.3689,,141532,
+Roseville,United States,38.7703,-121.3196,,141500,
+Thornton,United States,39.9197,-104.9438,,141464,
+Miramar,United States,25.9773,-80.3351,,141191,
+Pasadena,United States,34.1597,-118.139,,141029,
+Mesquite,United States,32.7623,-96.5889,,140937,
+Olathe,United States,38.8832,-94.8198,,140545,
+Santa Maria,United States,34.9334,-120.4432,,140545,
+Houma,United States,29.5799,-90.7058,,140469,
+Carrollton,United States,32.989,-96.8999,,139248,
+Grand Junction,United States,39.0876,-108.5673,,139143,
+Charleston,United States,38.3484,-81.6323,admin,138706,
+Orange,United States,33.8038,-117.8218,,138669,
+Fullerton,United States,33.8841,-117.9279,,138632,
+Greeley,United States,40.4151,-104.7706,,137810,
+Las Cruces,United States,32.3265,-106.7892,,136254,
+Panama City,United States,30.1995,-85.6004,,136133,
+Harlingen,United States,26.1917,-97.6976,,136037,
+Ramapo,United States,41.1404,-74.1072,,135560,
+West Valley City,United States,40.6889,-112.0115,,135248,
+Hampton,United States,37.0551,-76.363,,134510,
+Warren,United States,42.4934,-83.027,,133943,
+Mauldin,United States,34.7849,-82.3005,,133872,
+Bloomington,United States,40.4757,-88.9703,,133846,
+Coral Springs,United States,26.2702,-80.2591,,133759,
+Round Rock,United States,30.5254,-97.666,,133372,
+Yakima,United States,46.5923,-120.5496,,133191,
+Sterling Heights,United States,42.5809,-83.0305,,132438,
+Kent,United States,47.3887,-122.2129,,132319,
+Burlington,United States,36.0758,-79.4686,,131043,
+Bellingham,United States,48.7543,-122.4687,,130641,
+Santa Clara,United States,37.3645,-121.968,,130365,
+Racine,United States,42.7274,-87.8135,,130142,
+Greenville,United States,35.5956,-77.3768,,130118,
+Stamford,United States,41.1035,-73.5583,,129638,
+Elizabeth,United States,40.6657,-74.1912,,129216,
+Johnson City,United States,36.3406,-82.3803,,127571,
+Lynchburg,United States,37.4003,-79.1909,,126814,
+Simi Valley,United States,34.2663,-118.749,,126589,
+Amherst,United States,43.0117,-78.7569,,125509,
+Fort Smith,United States,35.3493,-94.3695,,125354,
+Kenosha,United States,42.5864,-87.8765,,124972,
+Norman,United States,35.2335,-97.3471,,124880,
+South Lyon,United States,42.4614,-83.6526,,124694,
+Boulder,United States,40.0249,-105.2523,,124345,
+Abilene,United States,32.4543,-99.7384,,123420,
+Lehigh Acres,United States,26.612,-81.6388,,123378,
+Pearland,United States,29.5585,-95.3215,,122460,
+Berkeley,United States,37.8723,-122.276,,121363,
+Richardson,United States,32.9717,-96.7093,,121323,
+Redding,United States,40.5698,-122.365,,121313,
+Arvada,United States,39.8321,-105.1511,,121272,
+East Los Angeles,United States,34.0326,-118.1691,,121187,
+St. George,United States,37.077,-113.577,,120899,
+Billings,United States,45.7891,-108.5524,,120728,
+Yuba City,United States,39.1357,-121.6381,,120456,
+Rochester,United States,44.0151,-92.4778,,119942,
+Leominster,United States,42.5209,-71.7717,,119690,
+Kingsport,United States,36.5224,-82.5453,,119666,
+Duluth,United States,46.7756,-92.1392,,119476,
+Rock Hill,United States,34.9416,-81.0244,,119105,
+Gilroy,United States,37.0047,-121.5855,,118993,
+Cambridge,United States,42.3759,-71.1185,,118927,
+Sugar Land,United States,29.5935,-95.6357,,118488,
+Texas City,United States,29.4128,-94.9658,,118169,
+Iowa City,United States,41.6559,-91.5303,,118041,
+Saginaw,United States,43.4199,-83.9501,,117958,
+Chico,United States,39.7575,-121.8152,,117668,
+Dover,United States,39.161,-75.5203,admin,117282,
+Clearwater,United States,27.9789,-82.7622,,116946,
+Coeur d'Alene,United States,47.7041,-116.7935,,116834,
+Seaside,United States,36.6224,-121.8191,,116720,
+Independence,United States,39.0871,-94.3501,,116672,
+Smithtown,United States,40.8662,-73.2164,,116669,
+West Jordan,United States,40.6024,-112.0008,,116480,
+Brandon,United States,27.9367,-82.3,,115911,
+Bloomington,United States,39.1637,-86.5257,,115884,
+El Monte,United States,34.0739,-118.0291,,115487,
+Carlsbad,United States,33.1247,-117.2837,,115382,
+North Charleston,United States,32.9066,-80.0722,,115382,
+St. Cloud,United States,45.5339,-94.1718,,115028,
+Temecula,United States,33.4928,-117.1315,,114761,
+Clovis,United States,36.8278,-119.6831,,114584,
+Meridian,United States,43.6112,-116.3968,,114161,
+The Woodlands,United States,30.1738,-95.5134,,113819,
+Westminster,United States,39.8837,-105.0624,,113166,
+Costa Mesa,United States,33.6667,-117.9135,,113003,
+Monroe,United States,32.5183,-92.0774,,112891,
+Utica,United States,43.0961,-75.226,,112650,
+Pompano Beach,United States,26.2428,-80.1312,,112118,
+West Palm Beach,United States,26.7468,-80.1316,,111955,
+Waterloo,United States,42.492,-92.3522,,111631,
+Everett,United States,47.9525,-122.1669,,111475,
+El Centro,United States,32.7867,-115.5586,,111425,
+Santa Fe,United States,35.6619,-105.9819,admin,111269,
+Downey,United States,33.9379,-118.1312,,111126,
+Spring Hill,United States,28.4797,-82.53,,111076,
+Lowell,United States,42.6389,-71.3217,,110997,
+Centennial,United States,39.5926,-104.8674,,110937,
+Elgin,United States,42.0385,-88.3229,,110849,
+Richmond,United States,37.9477,-122.339,,110567,1452.13
+Broken Arrow,United States,36.0365,-95.7809,,110198,
+Miami Gardens,United States,25.9433,-80.2426,,110001,
+Bend,United States,44.0562,-121.3087,,109802,
+Burlington,United States,44.4877,-73.2314,,109763,
+Jurupa Valley,United States,34.001,-117.4705,,109527,
+Sandy Springs,United States,33.9366,-84.3703,,109452,
+Gresham,United States,45.5023,-122.4413,,109381,
+Lewisville,United States,33.0452,-96.9823,,109212,
+Hillsboro,United States,45.5272,-122.9361,,109128,
+San Buenaventura,United States,34.2741,-119.2314,,109106,
+Jacksonville,United States,34.7288,-77.3941,,108856,1432.86
+Pottstown,United States,40.2507,-75.6444,,108758,
+Inglewood,United States,33.9566,-118.3444,,108151,
+League City,United States,29.4873,-95.1087,,107536,
+Eau Claire,United States,44.8199,-91.4949,,107404,
+Turlock,United States,37.5053,-120.8588,,107317,
+Temple,United States,31.1076,-97.3894,,107258,
+Sioux City,United States,42.4959,-96.3901,,106455,
+Salisbury,United States,38.3756,-75.5867,,106447,
+Davie,United States,26.0789,-80.287,,106306,
+Daly City,United States,37.6862,-122.4685,,106280,
+Highlands Ranch,United States,39.5419,-104.9708,,105631,
+Allen,United States,33.1088,-96.6735,,105623,
+West Covina,United States,34.0555,-117.9112,,105101,
+Sparks,United States,39.5729,-119.7157,,105006,
+Wichita Falls,United States,33.9072,-98.5291,,104683,
+San Mateo,United States,37.5521,-122.3122,,104430,
+Columbia,United States,39.2004,-76.859,,103991,
+Norwalk,United States,33.9069,-118.0829,,103949,
+Rialto,United States,34.1174,-117.3894,,103526,
+Manteca,United States,37.7927,-121.2264,,103420,
+Arden-Arcade,United States,38.6034,-121.381,,102864,
+El Cajon,United States,32.8017,-116.9605,,102708,
+Burbank,United States,34.1879,-118.3235,,102511,
+Longmont,United States,40.1686,-105.1005,,102474,
+Lakewood,United States,40.0763,-74.2031,,102466,
+Renton,United States,47.4784,-122.1919,,101751,
+Vista,United States,33.1896,-117.2386,,101638,
+Logan,United States,41.74,-111.8419,,101616,
+Prescott Valley,United States,34.5983,-112.3176,,101539,
+Vacaville,United States,38.359,-121.968,,101444,
+Edinburg,United States,26.3197,-98.1596,,101170,
+Carmel,United States,39.965,-86.146,,101068,
+Spokane Valley,United States,47.6626,-117.2346,,101060,
+San Angelo,United States,31.4424,-100.4506,,101004,
+La Crosse,United States,43.824,-91.2268,,100693,
+Edison,United States,40.536,-74.3697,,100447,
+Idaho Falls,United States,43.4872,-112.0362,,100442,
+Holland,United States,42.7677,-86.0985,,100432,
+Charlottesville,United States,38.0375,-78.4855,,100416,
+Longview,United States,32.5193,-94.7621,,100330,
+Woodbridge,United States,40.5611,-74.2943,,100089,
+Tracy,United States,37.7269,-121.4522,,100049,
+Montevideo,Uruguay,-34.8667,-56.1667,primary,1319108,564.87
+Salto,Uruguay,-31.3883,-57.9606,admin,124878,
+Ciudad de la Costa,Uruguay,-34.8167,-55.95,,112449,

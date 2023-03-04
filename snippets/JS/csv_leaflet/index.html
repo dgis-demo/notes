@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>leaflet-map-csv</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+  <style>
+    body { margin:0; padding:0; }
+    #map { position: absolute; top:0; bottom:0; right:0; left:0; z-index:1; }
+    #selectFile { position: absolute; z-index:2; }
+  </style>
+
+</head>
+<body>
+
+  <div id="map"></div>
+  <input type="file" id="selectFile" value="Open"/>
+  <script>
+    document.getElementById('selectFile').addEventListener('change', loadFile);
+
+    function loadFile() {
+        if (typeof window.FileReader !== 'function') {
+          return;
+        }
+
+        let input = document.getElementById('selectFile');
+        if (!input || !input.files || !input.files[0]) {
+          return;
+        }
+        else {
+          let file = input.files[0];
+          let file_reader = new FileReader();
+          file_reader.onload = receivedText;
+          file_reader.readAsText(file);
+          return file.name;
+        }
+      }
+
+    function receivedText(e) {
+      try {
+        let data = Papa.parse(e.target.result, {header: true, dynamicTyping: true}).data;
+
+        for (let i in data) {
+          let row = data[i];
+          let rent = row.rent;
+          let capital = row.capital;
+          let color = 'blue';
+          let radius = 8;
+
+          // TODO: refactor it
+          if (0 < rent && rent < 500) {
+              color = 'green';          
+          }
+
+          if (500 < rent && rent < 1000) {
+              color = 'greenyellow';          
+          }
+
+          if (1000 < rent && rent < 1500) {
+              color = 'orange';          
+          }
+
+          if (1500 < rent && rent < 2000) {
+              color = 'red';          
+          }
+
+          if (rent > 2000) {
+              color = 'blueviolet';          
+          }
+
+          if (rent === null) {
+              rent = 'n/a';          
+              color = 'grey';
+              radius = 3
+          }
+
+          if (capital === null) {
+              capital = 'unknown';          
+          }
+
+          let popupContent = `
+              <b>${row.city}</b><br>
+              <i>population:</i> ${row.population}<br>
+              <i>rent:</i> ${rent}<br>
+              <i>status:</i> ${capital}
+          `
+
+          let marker = L.circleMarker([row.lat, row.lng], {
+            radius: radius,
+            weight: 0.5,
+            color: 'black',
+            fill: true,
+            fillColor: color,
+            fillOpacity: 1.0,
+          }).bindPopup(popupContent);
+          
+          marker.addTo(map);
+        }
+      } catch {
+        return;
+      }
+    }
+
+    let map = L.map('map', {
+      center: [41.57, -72.69],
+      zoom: 3,
+      tap: false
+    });
+
+    let controlLayers = L.control.layers( null, null, {
+      position: 'topright',
+      collapsed: false
+    }).addTo(map);
+
+    let light = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="https://carto.com/attribution">CARTO</a>'
+    }).addTo(map);
+    controlLayers.addBaseLayer(light, 'Carto Light basemap');
+
+    let terrain = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    });
+    controlLayers.addBaseLayer(terrain, 'OSM basemap');
+
+    map.attributionControl.setPrefix(
+      'View <a href="https://github.com/HandsOnDataViz/leaflet-map-csv" target="_blank">code on GitHub</a>'
+    );
+
+  </script>
+</body>
+</html>
