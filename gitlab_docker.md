@@ -14,6 +14,10 @@ docker run --detach \
 
 ## Gitlab runner
 ```shell
+docker run -d --name gitlab-runner --restart always \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  gitlab/gitlab-runner:latest
+
 gitlab-runner register  \
     --url http://172.17.0.3  \
     --token glrt-2nEAY-QJFqJ_U6n2Cx6a \
