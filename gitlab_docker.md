@@ -9,3 +9,14 @@ docker run --detach \
   gitlab/gitlab-ce:latest
 ```
 2. Go to `http://localhost:8880`
+3. Edit `/etc/gitlab.rb`
+
+
+## Gitlab runner
+```shell
+gitlab-runner register  \
+    --url http://172.17.0.3  \
+    --token glrt-2nEAY-QJFqJ_U6n2Cx6a \
+    --docker-privileged \
+    --docker-volumes "/certs"
+```
