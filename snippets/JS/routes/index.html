@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NS routes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="http://ljagis.github.io/leaflet-measure/leaflet-measure.css"/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="http://ljagis.github.io/leaflet-measure/leaflet-measure.js"></script>
+    <script src="https://unpkg.com/wellknown@0.5.0/wellknown.js"></script>
+
+    <style>
+        body { margin:0; padding:0; }
+        #map { position: absolute; top:0; bottom:0; right:0; left:0; z-index:1; }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script>
+        let map = L.map('map', {
+          center: [41.57, -72.69],
+          zoom: 3,
+          tap: false
+        });
+
+        let controlLayers = L.control.layers( null, null, {
+          position: 'topright',
+          collapsed: false
+        }).addTo(map);
+
+        let measureControl = L.control.measure({
+          position: 'topleft',
+          primaryLengthUnit: 'meters',
+          secondaryLengthUnit: 'kilometers',
+          primaryAreaUnit: 'sqmeters',
+          secondaryAreaUnit: 'hectares',
+          activeColor: 'blueviolet',
+          completedColor: 'blue',
+        }).addTo(map);
+
+        fetch('https://raw.githubusercontent.com/dgis-demo/notes/map/snippets/JS/routes/routes.json')
+            .then(response => response.json())
+            .then(json =>
+                {
+                    console.log(json);
+                    let groups = {};
+
+                    for (let route of json) {
+                        let name = `${route.shortName}: ${route.longName}`;
+                        let layers = [];
+
+                        for (let line of route.patterns) {
+                            let polyline = L.geoJson(wellknown.parse(line.wktGeometry));
+                            layers.push(polyline);
+
+                            for (let stop of line.stops) {
+                                let marker = L.circleMarker([stop.lat, stop.lon], {'radius': 4});
+                                layers.push(marker);
+                            }
+                        }
+
+                        let group = L.layerGroup(layers);
+                        groups[name] = group;
+                    }
+
+                    for (let name in groups) {
+                        controlLayers.addOverlay(groups[name], name);
+                    }
+                }
+            )
+
+
+        let light = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+          attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="https://carto.com/attribution">CARTO</a>'
+        }).addTo(map);
+        controlLayers.addBaseLayer(light, 'Carto Light basemap');
+
+        let terrain = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          maxZoom: 19,
+          attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        });
+        controlLayers.addBaseLayer(terrain, 'OSM basemap');
+    </script>
+</body>
+</html>
